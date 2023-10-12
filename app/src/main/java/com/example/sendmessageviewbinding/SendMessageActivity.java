@@ -82,7 +82,6 @@ public class SendMessageActivity extends AppCompatActivity {
         }
     }
 
-
     @Override
     protected void onStart() {
         super.onStart();

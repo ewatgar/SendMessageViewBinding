@@ -14,7 +14,7 @@
     <dimen name="tvUserInfo_textSize">20sp</dimen>
     <dimen name="tvUserInfo_margin">12dp</dimen>
     <dimen name="tvUserInfo_padding">20dp</dimen>
-    <dimen name="tvUserInfo_height">200dp</dimen>
+    <dimen name="tvUserInfo_height">250dp</dimen>
     <!-- activity_view tvMessage -->
     <dimen name="tvMessage_margin">12dp</dimen>
     <dimen name="tvMessageText_paddingLeft">20dp</dimen>

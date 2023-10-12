@@ -1,6 +1,7 @@
 package com.example.sendmessageviewbinding;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.net.Uri;
 
 import androidx.annotation.ColorInt;
@@ -17,7 +18,7 @@ public class AboutActivity extends MaterialAboutActivity {
     @Override
     @NonNull
     protected MaterialAboutList getMaterialAboutList(@NonNull Context context) {
-        setTheme(R.style.AppTheme_MaterialAboutActivity);
+        setTheme(R.style.AppTheme_MaterialAboutActivity_CustomCardView);
         MaterialAboutCard cardAuthor = new MaterialAboutCard.Builder()
                 .title(R.string.cardAuthorTitle)
                 .addItem(new MaterialAboutActionItem.Builder()
@@ -30,7 +31,8 @@ public class AboutActivity extends MaterialAboutActivity {
                         .icon(R.drawable.ic_share)
                         .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(context, Uri.parse("https://github.com/ewatgar")))
                         .build())
-                .cardColor(getColor(R.color.colorPrimaryLight))
+                //no hace falta ya que se ha especificado el estilo
+                //.cardColor(getColor(R.color.colorPrimary))
                 .build();
 
         MaterialAboutCard cardVersion = new MaterialAboutCard.Builder()
@@ -39,7 +41,8 @@ public class AboutActivity extends MaterialAboutActivity {
                         .subText(R.string.cardVersionItemSubtext)
                         .icon(R.drawable.ic_info)
                         .build())
-                .cardColor(getColor(R.color.colorPrimaryLight))
+                //no hace falta ya que se ha especificado el estilo
+                //.cardColor(getColor(R.color.colorPrimary))
                 .build();
         return new MaterialAboutList.Builder()
                 .addCard(cardAuthor)
