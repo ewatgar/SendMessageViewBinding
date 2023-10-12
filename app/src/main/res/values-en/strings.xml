@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tvTitleMessage_text">Write a message:</string>
+    <string name="tvUserInfo_text">Shows user info</string>
+    <string name="tvMessage_text">Message info</string>
+    <string name="menu_aboutas">About me</string>
+    <!-- cardAuthor -->
+    <string name="cardAuthorTitle">Author</string>
+    <string name="cardAuthorItemNameSubtext">Student module DEINT</string>
+    <string name="cardAuthorItemGithubText">Fork on GitHUB</string>
+    <!-- cardVersion -->
+    <string name="cardVersionItemText">Version</string>
+    <string name="tvUserInfo_inicializeView">The person %s %s with DNI %s sends you the message:</string>
+</resources>

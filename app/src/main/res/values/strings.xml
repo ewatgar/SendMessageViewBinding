@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">SendMessage</string>
+    <string name="tvTitleMessage_text">Escribe un mensaje:</string>
+    <string name="tvUserInfo_text">Muestra la infomación del usuario</string>
+    <string name="tvUserInfo_inicializeView">La persona %s %s con DNI %s te manda el mensaje:</string>
+    <string name="tvMessage_text">Información del mensaje</string>
+    <string name="menu_aboutas">Sobre mi</string>
+    <!-- cardAuthor -->
+    <string name="cardAuthorTitle">Autor</string>
+    <string name="cardAuthorItemNameText" translatable="false">Ender Watts</string>
+    <string name="cardAuthorItemNameSubtext">Alum. módulo DEINT</string>
+    <string name="cardAuthorItemGithubText">Fork en GitHUB</string>
+    <!-- cardVersion -->
+    <string name="cardVersionItemText">Version</string>
+    <string name="cardVersionItemSubtext" translatable="false">1.0.0</string>
+</resources>

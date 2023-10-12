@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity_send_message tvTitleMessage -->
+    <dimen name="tvTitleMessage_textSize">20sp</dimen>
+    <dimen name="tvTitleMessage_marginTop">40dp</dimen>
+    <!-- activity_send_message edMessage -->
+    <dimen name="edMessage_marginStart">32dp</dimen>
+    <dimen name="edMessage_marginTop">16dp</dimen>
+    <dimen name="edMessage_marginEnd">32dp</dimen>
+    <dimen name="edMessage_marginBottom">100dp</dimen>
+    <dimen name="edMessage_padding">20dp</dimen>
+    <dimen name="edMessage_textSize">15dp</dimen>
+    <!-- activity_view tvUserInfo -->
+    <dimen name="tvUserInfo_textSize">20sp</dimen>
+    <dimen name="tvUserInfo_margin">12dp</dimen>
+    <dimen name="tvUserInfo_padding">20dp</dimen>
+    <dimen name="tvUserInfo_height">200dp</dimen>
+    <!-- activity_view tvMessage -->
+    <dimen name="tvMessage_margin">12dp</dimen>
+    <dimen name="tvMessageText_paddingLeft">20dp</dimen>
+    <dimen name="tvMessageText_paddingRight">20dp</dimen>
+    <dimen name="tvMessage_textSize">15dp</dimen>
+</resources>
