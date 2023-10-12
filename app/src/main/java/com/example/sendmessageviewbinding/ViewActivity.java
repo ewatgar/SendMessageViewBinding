@@ -19,10 +19,32 @@ public class ViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //region VERSIÓN ANTIGUA - findViewById()
+        /*
+        setContentView(R.layout.activity_view);
+        tvUserInfo = findViewById(R.id.tvUserInfo);
+        tvMessage = findViewById(R.id.tvMessage);
+        */
+        //endregion
+
         binding = ActivityViewBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         // Recoger directamente el Intent y el Bundle
         Bundle bundle = getIntent().getExtras();
+
+        //region VERSIÓN ANTIGUA - serializable
+        //hay que comprobar la versión del sdk, ya que el getSerializable antiguo no se
+        // puede utilizar después de la versión tiramisu
+        /*
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+            message = bundle.getSerializable(Message.KEY, Message.class);
+        } else{
+            message = (Message) bundle.getSerializable(Message.KEY);
+        }*/
+        //endregion
+
+        //Version parcelable
         message = bundle.getParcelable(Message.KEY);
         inicializeView();
     }
@@ -61,6 +83,8 @@ public class ViewActivity extends AppCompatActivity {
 
     /**
      * Método que inicializa todas las vistas o widgets de la interfaz o del layout
+     * @author Ender Watts García
+     * @version 1.0
      */
     private void inicializeView() {
         binding.tvUserInfo.setText(String.format(getString(R.string.tvUserInfo_inicializeView), message.getSender().getName(), message.getSender().getSurname(), message.getSender().getDni()));

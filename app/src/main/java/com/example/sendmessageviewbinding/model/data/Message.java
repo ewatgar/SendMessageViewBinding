@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 /**
- * Clase Person que guarda un mensaje que manda una persona (emisor) a otra persona (receptor).
+ * Se guarda un mensaje que manda una persona (emisor) a otra persona (receptor).
  * @author Ender Watts García
  * @version 1.0
  */

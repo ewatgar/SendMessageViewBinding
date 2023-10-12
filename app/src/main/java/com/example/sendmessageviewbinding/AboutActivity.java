@@ -17,7 +17,6 @@ public class AboutActivity extends MaterialAboutActivity {
     @Override
     @NonNull
     protected MaterialAboutList getMaterialAboutList(@NonNull Context context) {
-
         setTheme(R.style.AppTheme_MaterialAboutActivity);
         MaterialAboutCard cardAuthor = new MaterialAboutCard.Builder()
                 .title(R.string.cardAuthorTitle)
@@ -47,7 +46,6 @@ public class AboutActivity extends MaterialAboutActivity {
                 .addCard(cardVersion)
                 .build();
     }
-
     @Override
     protected CharSequence getActivityTitle() {
         return getString(R.string.menu_aboutas);

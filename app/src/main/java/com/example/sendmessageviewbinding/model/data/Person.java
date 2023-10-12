@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import java.util.Objects;
 
 /**
- * Clase Message que engloba la información de una persona en nuestra app
+ * Se guarda y engloba la información de una persona en nuestra app
  * @author Ender Watts García
  * @version 1.0
  */
