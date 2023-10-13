@@ -1,4 +1,4 @@
-# SendMessageViewBinding
+# SendMessageViewBinding ![badgeDEINT](https://img.shields.io/badge/DEINT-orange) ![badgeAS](https://img.shields.io/badge/Android_Studio-green) ![badgeAEA2](https://img.shields.io/badge/AEA2-SendMessageViewBinding-blue)
 
 Se ha creado una app en Android Studio que consiste en poder escribir un mensaje y que aparezca en pantalla al darle a un botón. También se ha implementado un menú con un apartado de "Sobre mi", en donde se puede leer información variada como el autor, la versión de la aplicación y un enlace a GitHUB.
 
