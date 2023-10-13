@@ -29,6 +29,7 @@
         android:layout_marginBottom="@dimen/edMessage_marginBottom"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:ems="10"
         android:background="@color/md_theme_light_outline"
         android:padding="@dimen/edMessage_padding"
         android:textColor="@color/edMessage_textColor"

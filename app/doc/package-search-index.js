@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.sendmessageviewbinding"},{"l":"com.example.sendmessageviewbinding.model.data"}];updateSearchResults();
